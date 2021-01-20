@@ -33,7 +33,7 @@ Alocação dinâmica:
 >Acesso encadeado: cada elemento pode estar em uma área distinta da memória.
 Para acessar um elemento, é preciso percorrer todos os seus antecessores na “Lista”. 
 
-# Imagem
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/Lista.png)
 
 ## **Lista Dinâmica Encadeada**
 
@@ -51,17 +51,19 @@ Cada elemento da Lista é composto por dois campos **“dados”** e **“prox�
  - Melhor utilização dos recursos de memória 
  - Não precisa movimentar os elementos nas operações de inserção e remoção
 
-# GIF
+# ![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/InserindoNo.gif)
 
 **Desvantagens:**
  - Acesso indireto aos elementos 
  - Necessidade de percorrer a lista para acessar um elemento 
- # GIF acesssando os Elementos
+ 
+ ![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/PercorrendoLista.gif)
 
 **Quando utilizar essa “Lista” ?** 
  - Não há necessidade de garantir um espaço mínimo para a execução do aplicativo.
  - Inserção/remoção em Lista ordenada são as operações mais frequente
 
+ ![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/Lista_2.png)
 
 
 ### Implementando uma “Lista Dinâmica Encadeada”
@@ -105,8 +107,7 @@ int main(int argc, char **argv)
 }
 
 ```
-# FOTO CreateLista
-
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/createList.png)
 
 ``` C
 /* ListaDinEncad.h */
@@ -144,7 +145,7 @@ int main(int argc, char **argv)
 }
 
 ```
-#   GiF LiberaLista
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/LiberaLista.gif)
 
 ``` C
 /* ListaDinEncad.h */
@@ -180,7 +181,7 @@ int main(int argc, char **argv)
 }
 ```
 
-# GIF TamanhoLista
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/TamanhoLista.gif)
 
 ``` c
 /* ListaDinEncad.h */
@@ -213,7 +214,7 @@ int main(int argc, char **argv)
     printf("%d\n",lista_vazia(li)) ; 
 }
 ```
-# Foto ListaVazia
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/ListaVazia.png) Foto ListaVazia
 
 **Existem 3 tipos de inserção:**
 - início
@@ -257,7 +258,7 @@ int main(int argc, char **argv)
     return 0;  
 }
 ```
-# Foto InserindoInicioLista
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/InserirInicioLista.gif)
 
 
 Inserção no final da Lista:
@@ -309,7 +310,7 @@ int main(int argc, char **argv)
     return 0;  
 }
 ```
-# GiF InserirListaFinal
+![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/InserirFinalLista.gif)
 Inserção de um elemento de forma Ordenada:
 ``` c
 /* ListaDinEncad.h */
@@ -371,3 +372,9 @@ int main(int argc, char **argv)
     insere_lista_ordenada(li, inserir);
     return 0;  
 }
+```
+
+### Referência:
+- https://programacaodescomplicada.wordpress.com/
+- https://www.youtube.com/user/progdescomplicada
+
