@@ -57,7 +57,7 @@ Cada elemento da Lista é composto por dois campos **“dados”** e **“prox�
  - Acesso indireto aos elementos 
  - Necessidade de percorrer a lista para acessar um elemento 
  
- ![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/PercorrendoLista.gif)
+ ![Lista](https://github.com/augusto-vieira/LinguagemC_Lista/blob/master/ListaEncadDinamica/img/gif/PercorrerElementos.gif)
 
 **Quando utilizar essa “Lista” ?** 
  - Não há necessidade de garantir um espaço mínimo para a execução do aplicativo.
