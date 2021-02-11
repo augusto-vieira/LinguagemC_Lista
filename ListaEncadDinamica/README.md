@@ -377,4 +377,5 @@ int main(int argc, char **argv)
 ### Referência:
 - https://programacaodescomplicada.wordpress.com/
 - https://www.youtube.com/user/progdescomplicada
+- https://www.youtube.com/playlist?list=PL1EkVGo1AQ0HgYpSwWwt_7JnavxRmCwt0
 
